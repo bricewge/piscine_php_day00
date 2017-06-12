@@ -1,0 +1,150 @@
+.calk {
+    z-index: 10;
+    top: 0;
+    left: 0;
+    opacity: 0.2;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: rgb(80, 80, 80);
+}
+
+.box {
+    background-color: rgb(144, 144, 144);
+    box-shadow: 10px 10px 10px #000000;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.header {
+    position: relative;
+    width: 1420px;
+    height: 137px;
+    margin-left: 226px;
+    margin-top: 18px;
+}
+
+.picture {
+    padding: 10px;
+    position: absolute;
+    top: 176px;
+    left: 435px;
+    height: 200px;
+    height: 562px;
+    width: 1000px;
+}
+
+.left-sidebar {
+    margin-left: 255px;
+    height: 410px;
+    width: 108px;
+    padding-left: 32px;
+    padding-top: 15px;
+}
+
+.right-sidebar {
+    /* margin-left: 1255px; */
+    height: 410px;
+    width: 105px;
+    padding-left: 34px;
+    padding-top: 15px;
+    position: absolute;
+    top: 176px;
+    left: 1484px;
+}
+
+.entry {
+    background-color: rgb(141, 254, 143);
+    left: 188px;
+    position: absolute;
+    top: 682px;
+    width: 509px;
+    height: 168px;
+    padding-left: 13px;
+    font-family: Sans-Serif;
+}
+.entry input{
+    margin-top: -36px;
+}
+.entry input[type=text] {
+    width: 385px;
+}
+.entry p {
+    font-size: 18px;
+    margin-top: 12px;
+}
+.entry big {
+    font-size: 2.2rem;
+    font-style: bold;
+    font-family: initial;
+}
+
+#logo {
+    margin : 10px;
+}
+
+#logo img {
+    /* height: 100%; */
+    margin: 10px;
+    width: 30%;
+    margin-top: 12px;
+    margin-left: 3px;
+}
+
+#reload img {
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin: 10px;
+}
+#close img {
+    height: 20px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    margin: 10px;
+}
+
+#loupe img {
+    position: absolute;
+    top: 0px;
+    right: 20px;
+    margin: 10px;
+}
+
+#cluster img {
+    height: 100%;
+}
+
+#arrow img, #main img, #oeil img, #outil img, #chat img,
+#book img, #towel img {
+    width: 70px;
+    margin-bottom: 10px;
+}
+#oeil img {
+    border: rgb(241, 19, 32);
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 5px;
+    margin-top: -4px;
+    margin-left: -3px;
+    margin-bottom: 6px
+}
+
+#brick {
+    background-image: url(resources/brick.jpg);
+    background-repeat: repeat;
+    width: 120px;
+    height: 68px;
+    left: 10px;
+    position: absolute;
+    margin-top: -5px;
+}
+
+#ordinateur {
+    text-shadow: 5px 2px 2px red;
+}
