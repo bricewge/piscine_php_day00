@@ -66,11 +66,18 @@ body {
     padding-left: 13px;
     font-family: Sans-Serif;
 }
-.entry input{
-    margin-top: -36px;
-}
+/* .entry input{ */
+/* } */
 .entry input[type=text] {
     width: 385px;
+    margin-top: -36px;
+    border: inset;
+}
+.entry input[type=submit] {
+    margin-top: -34px;
+    border-radius: 0px;
+    font-size: 13px;
+    margin-left: 5px;
 }
 .entry p {
     font-size: 18px;
