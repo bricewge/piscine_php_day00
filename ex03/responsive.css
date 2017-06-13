@@ -1,0 +1,37 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.center {
+    text-align: center;
+    margin: 2rem;
+}
+.element {
+    width: 5vw;
+    position: relative;
+    overflow: hidden;
+}
+.number {
+    text-align: left;
+    vertical-align: bottom;
+    font-size: .75rem;
+}
+.weight {
+    text-align: right;
+    font-size: .75rem;
+}
+.symbol {
+    font-size: 2rem;
+    font-style: bold;
+    text-align: center;
+}
+
+.other-nonmetal { background-color: green; }
+.metalloid { background-color: lawngreen; }
+.halogen { background-color: darkseagreen; }
+.noble-gaz { background-color: lightblue; }
+.alkali-metal { background-color: orange; }
+.earth-metal { background-color: yellow; }
+.lanthanoid { background-color: lightpink; }
+.actinoid { background-color: lightsalmon; }
+.transition-metal { background-color: crimson; }
+.posttransition-metal { background-color: aquamarine; }
