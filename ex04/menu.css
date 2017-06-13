@@ -1,0 +1,35 @@
+h1 {
+    text-align: center;
+}
+
+.menu {
+    position: relative;
+}
+
+.boutton {
+    background-color: darkgreen;
+    color: white;
+    padding: 1vw;
+    border: solid;
+    border-color: #424242;
+    border-width: 0.1vw;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.contenu {
+    display: none;
+    position: absolute;
+    background-color: lightgreen;
+    z-index: 1;
+}
+.contenu a {
+    display:block;
+    padding: 1rem 1rem;
+}
+.menu:hover .contenu{
+    display: block;
+    text-align: center;
+}
+.menu a:hover {
+    background-color: #f1f1f1;
+}
